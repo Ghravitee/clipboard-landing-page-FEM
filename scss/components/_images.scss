@@ -1,0 +1,36 @@
+.clipboard-logo {
+  margin: 6rem auto 3.2rem;
+}
+
+.blacklist-img,
+.plain-img,
+.preview-img {
+  margin: 1rem auto 2rem;
+  height: 2rem;
+}
+
+.footer-logo {
+  height: 3.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-info {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  @media (min-width: 31.25em) {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+}
+
+.computer-image {
+  @media (min-width: 50em) {
+    margin: 0 auto;
+  }
+}
+
+.image-devices {
+  @media (min-width: 59.375em) {
+    margin: 6rem auto 2rem;
+  }
+}

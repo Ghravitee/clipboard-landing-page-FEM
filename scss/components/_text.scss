@@ -1,0 +1,258 @@
+.header-text {
+   &__heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--Dark-Grayish-Blue);
+      
+      @media (min-width: 43.75em) {
+         font-size: 2.3rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 3rem;
+      }
+   }
+
+   &__paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .95rem;
+      margin-bottom: 2.5rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.25rem;
+      }
+
+      @media (min-width: 43.75em) {
+         width: 70%;
+         font-size: 1.3rem;
+      }
+   }
+}
+
+.snippets {
+   &__heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--Dark-Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 2.3rem;
+      }
+   }
+
+   &__paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .95rem;
+      margin-bottom: 1rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.25rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.2rem;
+         width: 70%;
+      }
+   }
+}
+
+.clipboard-info__text1,
+.clipboard-info__text2,
+.clipboard-info__text3 {
+   &--heading {
+      font-size: 1.5rem;
+      margin-bottom: .5rem;
+      color: var(--Dark-Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.8rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.5rem;
+      }
+
+   
+   }
+
+   &--paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .95rem;
+      margin-bottom: 1rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.25rem;
+      }
+
+      @media (min-width: 62.5em) {
+         width: 80%;
+         font-size: 1.18rem;
+         margin: 0;
+      }
+   }
+}
+
+.access {
+   &__heading {
+      font-size: 1.6rem;
+      margin-bottom: .5rem;
+      color: var(--Dark-Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.8rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 2.2rem;
+      }
+   }
+
+   &__paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .95rem;
+      margin-bottom: 2rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.25rem;
+      }
+
+      @media (min-width: 62.5em) {
+         width: 70%;
+         font-size: 1.2rem;
+      }
+   }
+
+}
+
+.workflow {
+   &__heading {
+      font-size: 1.6rem;
+      margin-bottom: .5rem;
+      color: var(--Dark-Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.8rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 2.2rem;
+         margin-bottom: .8rem;
+      }
+
+   }
+
+   &__paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .95rem;
+      margin-bottom: 2rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.25rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.1rem;
+         margin-bottom: 5rem;
+      }
+   }
+}
+
+.blacklist__text,
+.plain__text,
+.preview__text {
+   &--heading {
+      font-size: 1.2rem;
+      margin-bottom: .5rem;
+      color: var(--Dark-Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.4rem;
+      }
+
+      @media (min-width: 62.5em) {
+         margin-bottom: 1rem;
+      }
+   }
+
+   &--paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .95rem;
+      margin-bottom: 1rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.25rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: .99rem;
+         width: 100%;
+         margin-bottom: 5rem;
+      }
+   }  
+}
+
+.cta {
+   &__heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--Dark-Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 2.3rem;
+      }
+   }
+
+   &__paragraph {
+      width: 90%;
+      margin: 0 auto;
+      font-size: .96rem;
+      margin-bottom: 2.5rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 43.75em) {
+         font-size: 1.26rem;
+      }
+
+      @media (min-width: 62.5em) {
+         width: 70%;
+         font-size: 1.2rem;
+      }
+   }
+}
+
+
+
+ul li {
+   color: var(--Dark-Grayish-Blue);
+   font-size: .95rem;
+
+   @media (min-width: 43.75em) {
+      font-size: 1.26rem;
+   }
+
+   @media (min-width: 62.5em) {
+      font-size: 1.1rem;
+      text-align: left;
+   }
+}
+
+li:first-child {
+   margin-bottom: 1.5rem;
+
+   @media (min-width: 62.5em) {
+
+   }
+
+}
